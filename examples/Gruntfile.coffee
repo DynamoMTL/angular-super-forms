@@ -33,6 +33,16 @@ module.exports = (grunt) ->
           ext: '.html'
         }]
 
+    'http-server':
+      dev:
+        port: 9000
+        host: "127.0.0.1"
+        showDir : true
+        autoIndex: true
+        ext: "html"
+        runInBackground: false
+
+  grunt.loadNpmTasks('grunt-http-server')
   grunt.loadNpmTasks('grunt-contrib-copy')
   grunt.loadNpmTasks('grunt-contrib-clean')
   grunt.loadNpmTasks('grunt-contrib-coffee')
