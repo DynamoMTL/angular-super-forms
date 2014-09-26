@@ -1,0 +1,24 @@
+{
+  "name": "ng-super-form",
+  "version": "0.0.0",
+  "authors": [
+    "Josh Nussbaum <joshnuss@gmail.com>"
+  ],
+  "description": "Form directives for Angular.js",
+  "main": "src/ng-super-form.js",
+  "keywords": [
+    "form",
+    "directives",
+    "angular",
+    "bootstrap"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/joshnuss/ng-super-form",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
