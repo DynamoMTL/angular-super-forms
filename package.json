@@ -1,11 +1,11 @@
 {
-  "name": "angular-bootstrap-show-errors",
+  "name": "angular-super-forms",
   "version": "1.0.2",
-  "description": "An Angular Directive to intelligently show form validation errors",
-  "author": "https://github.com/paulyoder/angular-bootstrap-show-errors/graphs/contributors",
+  "description": "Angular.js directives for creating easy forms",
+  "author": "https://github.com/DynamoMTL/angular-super-forms/graphs/contributors",
   "license": "MIT",
-  "homepage": "https://github.com/angular-bootstrap-show-errors",
-  "main": "src/showErrors.js",
+  "homepage": "https://github.com/DynamoMtl/angular-super-forms",
+  "main": "src/angular-super-forms.js",
   "dependencies": {},
   "devDependencies": {
     "grunt": "0.4.1",
