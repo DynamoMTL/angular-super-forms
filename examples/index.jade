@@ -11,18 +11,20 @@ html(lang="en")
     script(src="../bower_components/bootstrap-sass/dist/js/bootstrap.min.js")
 
     script(src="angular-super-forms.js")
+    script(src="app.js")
     script(src="basic.js")
+    script(src="columns.js")
 
     link(rel="stylesheet",  href="../bower_components/bootstrap-sass/dist/css/bootstrap.min.css")
     
-  body
+  body(ng-app='examples')
     .container
       .row
         .col-lg-12
           .page-header
             h1
               | Angular Super Forms&nbsp;
-              small Examples
+              small examples
 
               .pull-right
                 a.btn.btn-primary.btn-lg
@@ -36,7 +38,7 @@ html(lang="en")
               li
                 a(href='#basic') Basic example
               li
-                a Multi-column layout
+                a(href='#columns') Multi-column layout
               li
                 a Inline form
               li
@@ -58,13 +60,16 @@ html(lang="en")
               
 
         .col-lg-9
-          #basic(ng-app='basic')
+          #basic
             h2 Basic example
             
             ng-include(src="'basic.html'")
 
             hr
 
-          #basic2
+          #columns
             h2 Multi-column layout
+
+            ng-include(src="'columns.html'")
+
             hr

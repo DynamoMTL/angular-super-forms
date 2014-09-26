@@ -1,0 +1,25 @@
+.row(ng-controller='ColumnExampleCtrl')
+  .col-lg-12
+    h3 Address form
+
+    super-form(submit='save()')
+      .row
+        .col-md-6
+          field(model='address.firstName', label='First Name')
+
+        .col-md-6
+          field(model='address.lastName', label='Last Name')
+
+      field(model='address.street', type='textarea')
+
+      .row
+        .col-md-5
+          field(model='address.city')
+
+        .col-md-5
+          field(model='address.state')
+
+        .col-md-2
+          field(model='address.zip')
+
+      submit(label='Save')

@@ -1,5 +1,5 @@
-angular.module('basic', ['SuperForms'])
-  .controller 'ExampleCtrl', ($scope) ->
+angular.module('examples')
+  .controller 'BasicExampleCtrl', ($scope) ->
     $scope.user = {}
 
     $scope.login = ->
