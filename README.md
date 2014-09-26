@@ -4,11 +4,12 @@ Angular.js forms made **super** easy. (inspired by [formtastic](https://github.c
 
 ## Features
 
-- generates `label`, error message `p`
-- supports attribute validation (i.e. `required`) and custom validation
-- easy to customize field layouts and buttons
-- supports [bootstrap](http://getbootstrap.com) out of the box
-- allows different layouts for different form types (i.e. inline style, placeholder style)
+- Generates `label`, error message `p`
+- Supports attribute validation (i.e. `required`) and custom validation
+- Easy to customize field layouts and buttons
+- Supports [bootstrap](http://getbootstrap.com) out of the box
+- Allows different layouts for different form types (i.e. inline style, placeholder style)
+- Support custom field types
 
 ## Example
 
