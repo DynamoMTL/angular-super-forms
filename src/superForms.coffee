@@ -18,6 +18,7 @@ angular.module('SuperForms', [])
           $scope.parentSubmit() if $scope.parentSubmit
         else
           angular.forEach $scope.form, (control) ->
+            return unless control
             control.$setViewValue('') if control.$pristine
 
           $scope.parentInvalid() if $scope.parentInvalid

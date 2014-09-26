@@ -21,6 +21,9 @@
               }
             } else {
               angular.forEach($scope.form, function (control) {
+                if (!control) {
+                  return;
+                }
                 if (control.$pristine) {
                   return control.$setViewValue('');
                 }
