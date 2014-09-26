@@ -28,6 +28,7 @@ Angular.js forms made **super** easy. (inspired by [formtastic](https://github.c
 
 - text
 - email
+- password
 - tel
 - url
 - number
