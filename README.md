@@ -23,7 +23,7 @@ bower install angular-super-forms --save
 
 # Development
 
-[Grunt](http://gruntjs.com) is installed to covert .coffee into .js and to run tests. Run `grunt watch` to monitor .coffee files.
+[Grunt](http://gruntjs.com) is installed to convert `.coffee` into `.js` and to run tests. Run `grunt watch` to monitor `.coffee` files. Run `grunt test` to test script in browser.
 
 ## License
 
