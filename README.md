@@ -1,6 +1,6 @@
 # Super Forms
 
-Angular.js forms made easy. (inspired by [formtastic](https://github.com/justinfrench/formtastic))
+Angular.js forms made **super** easy. (inspired by [formtastic](https://github.com/justinfrench/formtastic))
 
 ## Example
 
