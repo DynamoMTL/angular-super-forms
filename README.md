@@ -18,7 +18,7 @@ Angular.js forms made **super** easy. (inspired by [formtastic](https://github.c
 # Installation
 
 ```
-bower install angular-super-form --save
+bower install angular-super-forms --save
 ```
 
 ## License
