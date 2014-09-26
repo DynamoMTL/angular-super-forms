@@ -4,7 +4,8 @@ Angular.js forms made easy. (inspired by [formtastic](https://github.com/justinf
 
 ## Example
 
-```slim
+```jade
+  // example in jade
   super-form(submit='doStuff()' style='bootstrap')
     field(model='user.email' type='email' label='Email Address' required)
     field(model='user.name' type='text')
