@@ -21,6 +21,10 @@ Angular.js forms made **super** easy. (inspired by [formtastic](https://github.c
 bower install angular-super-forms --save
 ```
 
+# Development
+
+[Grunt](http://gruntjs.com) is installed to covert .coffee into .js and to run tests. Run `grunt watch` to monitor .coffee files.
+
 ## License
 
 MIT
