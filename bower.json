@@ -1,11 +1,11 @@
 {
-  "name": "ng-super-form",
+  "name": "angular-super-form",
   "version": "0.0.0",
   "authors": [
     "Josh Nussbaum <joshnuss@gmail.com>"
   ],
   "description": "Form directives for Angular.js",
-  "main": "src/ng-super-form.js",
+  "main": "src/angular-super-form.js",
   "keywords": [
     "form",
     "directives",
@@ -13,7 +13,7 @@
     "bootstrap"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/joshnuss/ng-super-form",
+  "homepage": "https://github.com/joshnuss/angular-super-form",
   "ignore": [
     "**/.*",
     "node_modules",
