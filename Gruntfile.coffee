@@ -43,7 +43,6 @@ module.exports = (grunt) ->
         singleRun: true
         browsers: ['PhantomJS']
 
-
   require('matchdep').filterDev('grunt-*').forEach(grunt.loadNpmTasks)
 
   grunt.registerTask 'default', ['coffee', 'ngmin', 'uglify']

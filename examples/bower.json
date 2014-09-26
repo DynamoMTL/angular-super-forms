@@ -1,0 +1,20 @@
+{
+  "name": "examples",
+  "version": "0.0.0",
+  "homepage": "https://github.com/DynamoMTL/angular-super-forms",
+  "authors": [
+    "Josh Nussbaum <joshnuss@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "~3.0.2",
+    "angular": "~1.2.25"
+  }
+}

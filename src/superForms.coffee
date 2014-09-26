@@ -1,4 +1,4 @@
-angular.module('SuperForms')
+angular.module('SuperForms', [])
   .directive 'superForm', ->
     restrict: 'E'
     transclude: true
@@ -43,8 +43,6 @@ angular.module('SuperForms')
   <select ng-model="model" ng-show="type == 'select'" ng-required="required" class="form-control">
     <ng-transclude/>
   </select>
-  <span ng-hide="type == 'checkbox'" class="glyphicon glyphicon-ok form-control-feedback"></span>
-  <span ng-hide="type == 'checkbox'" class="glyphicon glyphicon-remove form-control-feedback"></span>
 </div>
     """
     transclude: true
@@ -82,8 +80,9 @@ angular.module('SuperForms')
         type != 'select' && type != 'textarea' && type != 'checkbox'
 
     compile: (element, attrs) ->
-      attrs.name = _.last(attrs.model.split('.')) unless attrs.name
-      attrs.label = attrs.name[0].toUpperCase() + _.rest(attrs.name).join('') unless attrs.label
+      modelNameParts = attrs.model.split('.')
+      attrs.name = modelNameParts[modelNameParts.length-1] unless attrs.name
+      attrs.label = attrs.name[0].toUpperCase() + attrs.name.substr(1) unless attrs.label
 
       if attrs.options
         $select = element.find('select')

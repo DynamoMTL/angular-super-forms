@@ -1,0 +1,9 @@
+.row(ng-controller='ExampleCtrl')
+  .col-lg-6.col-lg-offset-3
+    h3 Login form
+
+    super-form(submit='login()')
+      field(model='user.email', type='email')
+      field(model='user.password', type='password')
+
+      submit(label='Login')

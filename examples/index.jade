@@ -1,0 +1,70 @@
+html(lang="en")
+  head
+    title angular-super-forms examples
+
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+
+    script(src="../bower_components/jquery/dist/jquery.js")
+    script(src="../bower_components/angular/angular.js")
+    script(src="../bower_components/bootstrap-sass/dist/js/bootstrap.min.js")
+
+    script(src="angular-super-forms.js")
+    script(src="basic.js")
+
+    link(rel="stylesheet",  href="../bower_components/bootstrap-sass/dist/css/bootstrap.min.css")
+    
+  body
+    .container
+      .row
+        .col-lg-12
+          .page-header
+            h1
+              | Angular Super Forms&nbsp;
+              small Examples
+
+              .pull-right
+                a.btn.btn-primary.btn-lg
+                  | Github&nbsp;
+                  span.glyphicon.glyphicon-cloud-download
+
+      .row
+        .col-lg-3
+          .well
+            ul.nav.nav-pills.nav-stacked
+              li
+                a(href='#basic') Basic example
+              li
+                a Multi-column layout
+              li
+                a Inline form
+              li
+                a Select fields
+              li
+                a Field types
+              li
+                a Attribute validation
+              li
+                a Custom validation
+              li
+                a Custom layout
+              li
+                a Custom fields
+              li
+                a Form components
+              li
+                a Nested forms
+              
+
+        .col-lg-9
+          #basic(ng-app='basic')
+            h2 Basic example
+            
+            ng-include(src="'basic.html'")
+
+            hr
+
+          #basic2
+            h2 Multi-column layout
+            hr
