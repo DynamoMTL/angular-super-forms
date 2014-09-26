@@ -2,6 +2,8 @@
 
 Angular.js forms made **super** easy. (inspired by [formtastic](https://github.com/justinfrench/formtastic))
 
+## [Live Demo](http://dynamomtl.github.io/angular-super-forms/examples/build/index.html)
+
 ## Features
 
 - Generates `label`, `input`/`select` tag and error message `p`. (fully customizable)
