@@ -4,7 +4,7 @@ Angular.js forms made **super** easy. (inspired by [formtastic](https://github.c
 
 ## Features
 
-- Generates `label`, error message `p`
+- Generates `label`, `input`/`select` tag and error message `p`. (fully customizable)
 - Supports attribute validation (i.e. `required`) and custom validation
 - Easy to customize field layouts and buttons
 - Supports [bootstrap](http://getbootstrap.com) out of the box
@@ -44,6 +44,12 @@ Angular.js forms made **super** easy. (inspired by [formtastic](https://github.c
 
 ```
 bower install angular-super-forms --save
+```
+
+Add dependency to your angular module
+
+```javascript
+angular.module('MyModule', ['SuperForms']);
 ```
 
 # Development
